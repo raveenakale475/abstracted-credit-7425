@@ -429,14 +429,23 @@ a {
 }
 #cont9 {
   background-color: #faf2f4;
+
   height: 811px;
+
+
 }
 
 #con10 {
   border: 0px solid red;
+
   height: 800px;
   width: 100%;
   background-color: #fbfbfc;
+
+  height: 700px;
+  width: 100%;
+  background-color: #faf2f4;
+
   margin-top: -50px;
   padding-top: 40px;
 }
@@ -447,13 +456,21 @@ a {
   border: 0px solid green;
   margin: auto;
   margin-top: 50px;
+
   background-color: #fbfbfc;
+
+  background-color: #faf2f4;
+
 }
 #column7 {
   width: 50%;
   height: 100%;
   border: 0px solid blue;
+
   background-color: #fbfbfc;
+
+  background-color: #faf2f4;
+
 }
 #column7 > h2 {
   font-size: 48px;
@@ -479,15 +496,24 @@ a {
   width: 50%;
   background-color: #eaf7fb;
   padding-top: 150px;
+
   background-color: #fbfbfc;
+
+  background-color: #faf2f4;
+
 }
 
 #column8 > video {
   width: 90%;
   /* margin-top: -70px; */
+
   margin-bottom: 20px;
 
   background-color: #fbfbfc;
+
+
+  background-color: #faf2f4;
+
 }
 
 #id {
@@ -505,15 +531,26 @@ a {
 
 #con11 {
   border: 0px solid red;
+
   height: 800px;
   width: 100%;
   background-color: #fbfbfc;
   /* margin-top: -10px; */
+
+  height: 700px;
+  width: 100%;
+  background-color: #fbfbfc;
+  margin-top: -50px;
+
   padding-top: 40px;
 }
 
 #container10 {
+
   height: auto;
+
+  height: 508px;
+
   width: 90%;
   border: 0px solid green;
   margin: auto;
@@ -554,7 +591,11 @@ a {
 }
 
 #column9 > img {
+
   width: 100%;
+
+  width: 90%;
+
 
   background-color: #fbfbfc;
 }
@@ -572,6 +613,7 @@ a {
   margin-left: -10px;
   background-color: #fbfbfc;
 }
+
 
 #any {
   display: flex;
@@ -849,3 +891,4 @@ hr {
 #con1 {
   border: 3px solid #faf2f4;
 }
+
