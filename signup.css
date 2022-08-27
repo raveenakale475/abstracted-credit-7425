@@ -64,6 +64,43 @@
   margin-bottom: 20px;
 }
 #prodcon {
+
+  height: auto;
+  width: 90%;
+  border: 0px solid red;
+  display: flex;
+  margin: auto;
+}
+#first {
+  border: 0px solid green;
+  width: 31%;
+  height: auto;
+}
+
+#second {
+  border: 0px solid blue;
+  width: 69%;
+  height: auto;
+}
+.px {
+  font-size: 12px;
+}
+#input {
+  width: 240px;
+}
+
+#find {
+  display: flex;
+  margin-top: 20px;
+}
+#bi {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#c1:hover {
+  background-color: #efefef;
+  cursor: pointer;
+
   height: 600px;
   width: 100%;
   border: 1px solid red;
@@ -72,4 +109,5 @@
   width: 188px;
   height: 288px;
   border: 1px solid green;
+
 }
