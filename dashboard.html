@@ -11,10 +11,33 @@
 
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="signup.css" />
+
+    <style>
+      /* medium screen */
+      @media all and (min-width:481px) and (max-width:761px){
+        #prodcon {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+      #scratch{
+        grid-template-columns:  repeat(2,1fr);
+      }
+      }
+
+      @media all and (min-width:320px) and (max-width:480px){
+        #prodcon {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+      #scratch{
+        grid-template-columns:  repeat(1,1fr);
+      }
+      }
+    </style>
 </head>
 <body>
     <div class="container-fluid shadow p-2 mb-3 bg-white rounded" id="con15">
-        <div class="container12">
+        <div class="container12 flex-wrap">
           <div class="row">
             <div class="col" id="co1umn15">
               <ul class="nav">
@@ -57,7 +80,7 @@
         </div>
       </div>
 
-      <div class="container" id="prodcon">
+      <div class="container mt-4" id="prodcon">
 
         <div id="first">
           <div class="card" style="width: 18rem;background-color: 
@@ -143,7 +166,7 @@
             </div>
           </div>
            
-           <div style="display:flex;width:100%;gap:20px;margin-top:50px">
+           <div id="scratch">
           <div class="card" style="width: 18rem;" id="c1">
             <img class="card-img-top img-fluid" src="https://thumbs.dreamstime.com/b/plus-icon-green-square-button-isolated-abstract-illustration-105988277.jpg" alt="Card image cap" style="width:250px;padding:60px;">
             <div class="card-body">

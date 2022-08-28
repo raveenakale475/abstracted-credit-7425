@@ -62,6 +62,7 @@ body {
   height: 790px;
   display: flex;
   margin: auto;
+  background-color: #e9f7fa;
 }
 .one {
   border: 0px solid blue;

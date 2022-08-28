@@ -65,20 +65,21 @@
 }
 #prodcon {
   height: auto;
-  width: 90%;
+  /* width: 100%; */
   border: 0px solid red;
-  display: flex;
+  display: grid;
   margin: auto;
+  grid-template-columns: repeat(2, 1fr);
 }
 #first {
   border: 0px solid green;
-  width: 31%;
+  /* width: 100%; */
   height: auto;
 }
 
 #second {
   border: 0px solid blue;
-  width: 69%;
+  /* width: 100%; */
   height: auto;
 }
 .px {
@@ -99,4 +100,12 @@
 #c1:hover {
   background-color: #efefef;
   cursor: pointer;
+}
+
+#scratch {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+  margin-top: 50px;
+  grid-template-columns: repeat(3, 1fr);
 }
